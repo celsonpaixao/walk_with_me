@@ -1,0 +1,12 @@
+.support_container{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.support_container_body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

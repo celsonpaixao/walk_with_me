@@ -1,0 +1,20 @@
+.service_container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    color: var(--blue800);
+    padding: 50px 0;
+  }
+}
+
+.services_cards_body {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Duas linhas com altura igual */
+  grid-template-columns: 1fr 1fr 1fr; /* Duas colunas com largura igual */
+  gap: 20px; /* Espaço entre os itens do grid */
+  /* Outros estilos */
+}
