@@ -1,0 +1,19 @@
+.card_container {
+  box-shadow: 1px 1px 6px 1px var(--grey400);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.card_container h2 {
+  color: var(--blue800);
+}
+.card_container h1 {
+  color: var(--blue800);
+}
+.card_container p {
+  color: var(--grey400);
+  text-align: center;
+}

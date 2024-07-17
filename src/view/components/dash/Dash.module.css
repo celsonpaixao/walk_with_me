@@ -1,0 +1,28 @@
+.dash_container {
+  background-color: white;
+  padding: 80px 0;
+}
+.dash_container_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dash_container_body_1 {
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+.dash_container_body_1 img {
+  width: 505px;
+  height: 487px;
+}
+.dash_container_body_2 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Duas linhas com altura igual */
+  grid-template-columns: 1fr 1fr; /* Duas colunas com largura igual */
+  gap: 50px; /* Espaço entre os itens do grid */
+  /* Outros estilos */
+  /* background-color: aqua; */
+}

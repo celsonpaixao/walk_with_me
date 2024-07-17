@@ -3,6 +3,7 @@ import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 import style from "./Header.module.css";
+
 function Header() {
   return (
     <div className={style.header_container}>
