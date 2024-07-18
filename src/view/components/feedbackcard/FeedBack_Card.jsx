@@ -6,10 +6,10 @@ function FeedBack_Card({ username, address, message, imageurl }) {
   return (
     <div className={style.card_container}>
       <div className={style.speech_bubble}>
-        <h1>
+       
           {" "}
-          <RiDoubleQuotesR />
-        </h1>
+          <RiDoubleQuotesR  className={style.speech_bubble_icon} />
+      
         <p>{message}</p>
       </div>
 

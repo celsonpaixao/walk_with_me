@@ -1,6 +1,7 @@
 import Contacts from "../components/contacts/Contacts";
 import Dash from "../components/dash/Dash";
 import FeedBacks from "../components/feedbacks/FeedBacks";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Info from "../components/info/Info";
 import OurServices from "../components/ourservices/OurServices";
@@ -18,6 +19,7 @@ function Home() {
       <OurServices />
       <FeedBacks />
       <Contacts />
+      <Footer/>
     </div>
   );
 }
